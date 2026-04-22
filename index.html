@@ -14,7 +14,7 @@
 <header class="header">
   <a href="#home" class="logo">Lee <span>Pison</span></a>
 
-  <i class="bx bx-menu" id="menu-icon"></i>
+  <i class="bx bx-menu" id="menu-icon" aria-label="Toggle menu" role="button" tabindex="0"></i>
 
   <nav class="navbar">
     <a href="#home">Home</a>
@@ -43,14 +43,14 @@
   </div>
 
   <div class="home-img">
-    <img src="images/image 1.png" loading="lazy">
+    <img src="images/image 1.png" alt="Portrait of Lee Pison" loading="lazy">
   </div>
 </section>
 
 
 <section class="about" id="about">
   <div class="about-img">
-    <img src="images/image 1.png" loading="lazy">
+    <img src="images/image 1.png" alt="Portrait of Lee Pison" loading="lazy">
   </div>
 
  <div class="about-content">
@@ -98,7 +98,7 @@
   <div class="projects-box">
 
     <div class="projects-card">
-      <img src="images/project 1.png" loading="lazy">
+      <img src="images/project 1.png" alt="Trading UI project interface" loading="lazy">
       <h3>Trading UI</h3>
       <p><strong>Problem:</strong> Slow trading interface</p>
       <p><strong>Solution:</strong> Optimized responsive UI</p>
@@ -106,7 +106,7 @@
     </div>
 
     <div class="projects-card">
-      <img src="images/project 2.png" loading="lazy">
+      <img src="images/project 2.png" alt="Portfolio website design" loading="lazy">
       <h3>Portfolio Site</h3>
       <p><strong>Problem:</strong> No online presence</p>
       <p><strong>Solution:</strong> Built responsive portfolio</p>
@@ -166,8 +166,17 @@
 
   <form id="contact-form">
     <div class="input-box">
-      <input type="text" placeholder="Full Name" required>
-      <input type="email" placeholder="Email" required>
+      <label for="name">Full Name</label>
+<input id="name" type="text" required>
+
+<label for="email">Email</label>
+<input id="email" type="email" required>
+
+<label for="subject">Subject</label>
+<input id="subject" type="text">
+
+<label for="message">Message</label>
+<textarea id="message" required></textarea>
     </div>
 
     <div class="input-box">

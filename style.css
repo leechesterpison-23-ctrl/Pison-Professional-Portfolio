@@ -160,9 +160,28 @@ section {
 
 
 .resume-container {
-  text-align: center;
+  display: grid;
+  gap: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.resume-block {
+  background: var(--second-bg-color);
+  padding: 2rem;
+  border-radius: 1rem;
+  border: 1px solid var(--main-color);
+}
+
+.resume-block h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--main-color);
+}
+
+.resume-block p {
   font-size: 1.6rem;
-  line-height: 2;
+  line-height: 1.6;
 }
 
 

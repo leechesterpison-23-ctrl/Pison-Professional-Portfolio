@@ -120,6 +120,21 @@ section {
   background: var(--second-bg-color);
 }
 
+.about-content {
+  flex: 1;
+}
+
+.about-content p {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  max-width: 700px;
+}
+
+.about-content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
 .about-img img {
   width: 280px;
   border-radius: 50%;

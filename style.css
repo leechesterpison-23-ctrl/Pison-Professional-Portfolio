@@ -154,6 +154,18 @@ section {
   text-align: center;
 }
 
+.service-box p {
+  font-size: 1.8rem;
+}
+
+.service-box h4 {
+  font-size: 1.8rem;
+}
+
+.service-box i {
+  font-size: 1.8rem;
+}
+
 
 .projects-box {
   display: grid;
